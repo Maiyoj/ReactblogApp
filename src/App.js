@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-     <Form  blog={blog}/>
+     <Home blog={blog}/>
   
     </div>
   );
