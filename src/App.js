@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import { blog } from './components/data/blog';
 
 function App() {
+
   return (
     <div className="App">
-     <h1>Hello Valentine its going to be Okay</h1>
+     <Form  blog={blog}/>
+  
     </div>
   );
 }
