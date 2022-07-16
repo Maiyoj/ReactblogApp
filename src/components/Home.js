@@ -18,6 +18,8 @@ function Home({blogs}){
         <div className="Home">
             {allArticles}
             
+          
+            
         </div>
         
     )

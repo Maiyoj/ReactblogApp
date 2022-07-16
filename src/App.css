@@ -1,14 +1,19 @@
 .Home{
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ width:100% 
 
 
-  
   
 }
 .Article{
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 2px 1px rgba(205, 9, 231, 0.2);
   margin-left: 20px;
-  padding: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 30%; 
+
 }
 
 
