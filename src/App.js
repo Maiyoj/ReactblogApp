@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <Search searchData={searchData} setSearch={setSearch}/>
+      <Search searchData={searchData} setSearch={setSearch} blog={blog}/>
      <Home blogs={blog}/>
   
     </div>

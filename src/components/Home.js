@@ -14,7 +14,6 @@ function Home({blogs}){
     
     return(
 
-        
         <div className="Home">
             {allArticles}
             
