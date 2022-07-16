@@ -16,6 +16,15 @@
 
 }
 
+.Search input{
+  align-items: center;
+  width: 40%;
+  padding: 20px;
+  margin-left: 500px;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
 
 .App-logo {
   height: 40vmin;
