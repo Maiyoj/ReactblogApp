@@ -6,12 +6,12 @@ import Search from './components/Search';
 import{useState} from "react";
 
 function App() {
-  const [searchData, setSearch] = useState()
+  const [searchData, setSearch] = useState("")
 
   return (
     <div className="App">
       <Search searchData={searchData} setSearch={setSearch} blog={blog}/>
-     <Home blogs={blog}/>
+     <Home blogs={blog} searchData={searchData}/>
   
     </div>
   );

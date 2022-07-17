@@ -1,6 +1,6 @@
 
 
-function Search({setSearch, searchData, blog}){
+function Search({setSearch, searchData}){
    
 
     function handleData(event){
@@ -8,17 +8,7 @@ function Search({setSearch, searchData, blog}){
 
     }
 
-    // const dataToDisplay = searchData.filter((data)=>{
-
-    //     if (data===blog){
-    //         return true
-    //     }
-    //     else{
-    //         return blog.content === searchData;
-    //     }
-      
-    // })
-
+  
 
     return (
         <div  className="Search" >

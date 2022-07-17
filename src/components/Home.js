@@ -1,8 +1,19 @@
 
 import Article from "./Article"
-function Home({blogs}){
+function Home({blogs, searchData}){
 
-    const allArticles = blogs.map((blog) => {
+   const itemTo = blogs.filter((blog)=>{
+       if (searchData===""){
+           
+           return true
+       }
+       else{
+           return  blog.title.includes(searchData)
+       }
+   });
+
+
+    const allArticles = itemTo.map((blog) => {
         return <Article 
             key={blog.id}
             content={blog.content}
