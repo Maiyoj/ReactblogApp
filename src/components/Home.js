@@ -1,14 +1,20 @@
 
-import Article from "./Article"
+import Article from "./Article";
+
+
+
 function Home({blogs, searchData}){
 
+
    const itemTo = blogs.filter((blog)=>{
-       if (searchData===""){
+       if (searchData=== ""){
            
-           return true
+           return true;
        }
        else{
-           return  blog.title.includes(searchData)
+        //    return  blog.title.includes(searchData)
+        //    blog.name.toLowerCase().includes(searchData.toLowerCase())
+        return blog.title.toLowerCase().includes(searchData)
        }
    });
 
@@ -24,11 +30,10 @@ function Home({blogs, searchData}){
 
     
     return(
-
-        <div className="Home">
-            {allArticles}
+       
+        <div className="container">
             
-          
+            {allArticles}
             
         </div>
         
